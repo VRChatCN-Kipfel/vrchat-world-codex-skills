@@ -1,9 +1,9 @@
 ---
-name: vrchat-world-codex
-description: VRChat World 项目的完整工作流入口（设计、实施、坐标核验三向分派）。适用于 Unity VRChat World 与 Udon 的实施、诊断、修复、模块边界定义和导入朝向核验；不适用于 Avatar 侧工作、纯领域事实查询，或已经明确只需某单一子技能的任务。
+name: vrchat-world
+description: 入口技能，用于 VRChat World / Udon 相关的 Unity 工作：判断当前该"先设计模块边界""直接改源码"，还是"先核验坐标系"。当请求涉及世界功能实现、场景或 Prefab 改动、UdonSharp 编译错误、构建或上传失败、导入模型后朝向/镜像/缩放异常、模块过大不知从哪切分、或你手上有 World 需求但不确定该走哪条流程时，从这里开始。它也给出三者的优先次序：坐标可疑先核坐标（坐标错会让设计里的空间描述整体作废），边界未定先定边界（边界错会让改动扩散），其余直接实施。不适用：Avatar 侧工作（表情菜单、参数、PhysBone、改模、优化评级）、单纯查询某个组件参数或某个 API 在 Udon 中是否暴露、Blender 建模与美术资产制作、以及已能明确对应到某个子技能的单点任务。
 ---
 
-# VRChat World Codex
+# VRChat World
 
 这套技能覆盖 VRChat World 从设计到实施到核验的完整路径。**本文件是唯一入口**，具体做法在各自的子技能里。
 
