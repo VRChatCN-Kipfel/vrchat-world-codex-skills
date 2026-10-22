@@ -1,6 +1,6 @@
 ---
 name: build-vrchat-world
-description: Safely implement, diagnose, and repair Unity VRChat Worlds projects with scoped source and scene workflows, generated content handling, and feature-specific references; use when Unity project work is in scope.
+description: Safely implement, diagnose, and repair Unity VRChat Worlds projects with scoped source and scene workflows, generated content handling, and feature-specific references; use when the boundaries already exist and the work is a bounded change — edit this file, fix this error, repair this scene. Do not use to decide where boundaries should fall, and do not use while a coordinate or import-orientation mismatch is still unexplained; settle those first.
 ---
 
 # Build VRChat World
